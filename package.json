@@ -1,0 +1,21 @@
+{
+  "name": "vinyl-spins-notion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "export": "tsx ./export-discogs-lib.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lionralfs/discogs-client": "^4.1.1",
+    "@notionhq/client": "^2.2.15",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.1"
+  }
+}
